@@ -1,0 +1,19 @@
+{
+  "name": "donquixote/except",
+  "type": "library",
+  "description": "Library to compare PHP type specifiers.",
+  "homepage": "http://github.com/donquixote/except",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Hennings",
+      "email": "andreas@dqxtech.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Donquixote\\Except\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "Donquixote\\Except\\Tests\\": "tests/src" }
+  }
+}
